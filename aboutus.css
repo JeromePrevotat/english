@@ -15,8 +15,9 @@
     --Mbg: rgb(23,23,23);
 }
 
-head{
-    background-image: url("https://www.monsterenergy.com/img/hdr-bg.webp");
+.head-bg{
+    background-image: url("./img/monster_header_bg.webp");
+    width: 100%;
 }
 
 body{
