@@ -15,6 +15,14 @@
     --Mbg: rgb(23,23,23);
 }
 
+head{
+    background-image: url("https://www.monsterenergy.com/img/hdr-bg.webp");
+}
+
+body{
+    background-color: black;
+}
+
 h1{
     font-family: teko-sansserif;
     color: white;
