@@ -15,11 +15,6 @@
     --Mbg: rgb(23,23,23);
 }
 
-.head-bg{
-    background-image: url("./img/monster_header_bg.webp");
-    width: 100%;
-}
-
 body{
     background-color: black;
 }
@@ -27,6 +22,9 @@ body{
 h1{
     font-family: teko-sansserif;
     color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 8rem;
 }
 
 p, h2{
@@ -35,10 +33,28 @@ p, h2{
     font-weight: normal;
 }
 
+p{
+    font-size: 1rem;
+}
+
+h2{
+    text-align: center;
+    margin: 20px;
+}
+
 .bold{
     font-weight: bold;
 }
 
 .content{
     background-color: var(--Mbg);
+    padding: 20px;
+}
+
+footer{
+    margin: 20px;
+}
+
+h3{
+    color: white;
 }
