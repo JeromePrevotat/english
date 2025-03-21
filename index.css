@@ -3,3 +3,7 @@ img{
     max-height: 25vh;
     object-fit: scale-down;
 }
+
+p{
+    max-width: 40vw;
+}

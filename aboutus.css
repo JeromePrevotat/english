@@ -28,13 +28,9 @@ h1{
 }
 
 p, h2{
-    font-family: proxime-nova;
+    font-family: proxima-nova;
     color: var(--Mgray);
     font-weight: normal;
-}
-
-p{
-    font-size: 1rem;
 }
 
 h2{
@@ -57,4 +53,17 @@ footer{
 
 h3{
     color: white;
+}
+
+.footer_logo{
+    width: 150px;
+}
+
+i{
+    width: 75px;
+    height: 75px;
+}
+
+li:hover{
+    color:white;
 }
