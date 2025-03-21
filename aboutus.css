@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'proxima_nova_rgregular';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root{
+    --Mgreen: rgb(67,197,49);
+    --Mgray: rgb(182,182,176);
+    --Mbg: rgb(23,23,23);
+}
+
+h1{
+    font-family: teko-sansserif;
+    color: white;
+}
+
+p, h2{
+    font-family: proxime-nova;
+    color: var(--Mgray);
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.content{
+    background-color: var(--Mbg);
+}
