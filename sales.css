@@ -1,0 +1,18 @@
+:root {
+    --height_card_img:300px;
+}
+
+.title{
+    text-align: center;
+}
+
+.card{
+    max-height: fit-content;
+    max-width: 200px;
+    img{
+        object-fit: scale-down;
+        max-height: var(--height_card_img);
+        height: var(--height_card_img);
+        width: auto;
+    }
+}
