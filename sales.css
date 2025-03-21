@@ -10,9 +10,14 @@
     max-height: fit-content;
     max-width: 200px;
     img{
-        object-fit: scale-down;
+        object-fit: cover;
         max-height: var(--height_card_img);
         height: var(--height_card_img);
         width: auto;
+    }
+}
+.row .card:first-child{
+    img{
+        object-fit: scale-down
     }
 }
